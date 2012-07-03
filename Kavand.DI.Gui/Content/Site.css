@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'BKoodakBold';
+    src: url('fonts/BKoodakBold.eot?#') format('eot'), /* IE6–8 */ 
+         url('fonts/BKoodakBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ 
+         url('fonts/BKoodakBold.ttf') format('truetype'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+    font-family: 'BMitra';
+    src: url('fonts/BMitra.eot?#') format('eot'), /* IE6–8 */ 
+         url('fonts/BMitra.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ 
+         url('fonts/BMitra.ttf') format('truetype'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+body {
+    font-size: .85em;
+    color: #232323;
+    background-color: #fff;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #ff0000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Custom Styles
+-----------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    text-align: center;
+    direction: rtl;
+    font-family: BMitra;
+    font-size: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: BKoodakBold;
+}
+h1 {
+    font-size: 1.2em;
+}
+h2 {
+    font-size: 1.1em;
+}
+h3 {
+    font-size: 1em;
+}
+
+a, a:link, a:visited {
+    color: #B22;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #05a;
+}
+a:active {
+    color: #039;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #9df;
+    text-shadow: none;
+}
+::selection {
+    background: #444;
+    color: #9df;
+    text-shadow: none;
+}
+:focus,
+::-moz-focus-inner {
+    outline: none;
+}
+
+span.latin {
+    font-family: serif;
+    font-size: 90%;
+    direction: ltr;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.clearfix:after, .container:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+.clearfix, .container {
+    display: block;
+}
+
+/* Styles for header section
+-----------------------------------------------------------*/
+#header {
+    background: #F8F8F8;
+    border-top: 5px solid #05a;
+    border-bottom: 1px solid #ccc;
+}
+#header h2 {
+    padding: 20px 0 0;
+}
+#header h3 a {
+    color: #222;
+}
+#header nav li {
+    float: right;
+    width: 100px;
+}
+#header nav li a,
+#header nav li a:link,
+#header nav li a:visited {
+    display: block;
+    padding:10px 0 5px 0;
+    border-bottom: 3px solid #F8F8F8;
+}
+#header nav li a:hover,
+#header nav li a:focus {
+    border-bottom: 2px solid #05a;
+}
+#header nav li a:active {
+    text-decoration: none;
+}
+
+/* Styles for main section
+-----------------------------------------------------------*/
+
+#main {
+    text-align: right;
+    border-right: 1px solid #ccc;
+}
+#main .content {
+    padding: 10px;
+    min-height: 450px;
+}
+#main p {
+    text-align: justify;
+    margin: 10px 0;
+    text-indent: 15px;
+}
+#main h1 {
+    color: #05a;
+}
+
+/* Styles for footer section
+-----------------------------------------------------------*/
+#footer {
+    padding: 20px 0;
+    background: #444;
+    border-top: 5px solid #05a;
+    color: #bbb;
+    font: normal 14px serif;
+}
+#footer p {
+    direction: ltr;
+}
+#footer a {
+    color: #ccc;
+}
