@@ -125,6 +125,20 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kavand.DI.Data\Kavand.DI.Data.csproj">
+      <Project>{1930C56A-7F5F-49BC-AFAE-15443027D65A}</Project>
+      <Name>Kavand.DI.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kavand.DI.Objects\Kavand.DI.Objects.csproj">
+      <Project>{05CE6DAC-B068-490A-9578-C97F52461945}</Project>
+      <Name>Kavand.DI.Objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kavand.DI.Services\Kavand.DI.Services.csproj">
+      <Project>{6D728D66-36E0-47B6-80C6-0E118ED98822}</Project>
+      <Name>Kavand.DI.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
